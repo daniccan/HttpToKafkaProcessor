@@ -8,7 +8,7 @@ package com.daniccan.kafka;
 public class KafkaConfig {
 
     // Configuration(s) - To be moved to Properties File.
-    public static String kafkaConnectionUrl = "10.2.1.16:9092";
+    public static String kafkaConnectionUrl = "localhost:9092";
     public static String personTopicName = "person_topic";
     public static String kafkaProducerAcks = "all";
     public static int kafkaProducerRetries = 0;
